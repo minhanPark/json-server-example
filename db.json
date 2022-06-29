@@ -1,9 +1,21 @@
 {
+  "users": [
+    {
+      "email": "firstman@email.com",
+      "password": "$2a$10$uT0E.SM7RvUvwC3OKzgcHOFOSCW2fV9d4bBcYpdacgNsoOjwnP0GG",
+      "id": 1
+    },
+    {
+      "email": "secondman@email.com",
+      "password": "$2a$10$HM1nXlgPQhPCW9njN9IX3uDT3HpCubK57g4nOAI5Afpbwj3AxdVSm",
+      "id": 2
+    }
+  ],
   "todos": [
     {
-      "id": 2,
-      "description": "시리즈 읽어보기",
-      "isCompleted": true
+      "userId": 1,
+      "description": "todos check",
+      "id": 1
     }
   ]
 }
